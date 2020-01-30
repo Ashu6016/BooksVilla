@@ -1,0 +1,43 @@
+body{
+    margin-left: 100px;
+}
+.container-fluid h1{
+    margin-left: 400px;
+    position: fixed;
+    margin-top: 20px;
+}
+.sidenav{
+    height: 100vh;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color:#5DBCD2;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+}
+.sidenav a{
+    padding: 4px 6px 5px 12px;
+    text-decoration: darksalmon;
+    font-size: 25px;
+    line-height: 70px;
+    color: #818185;
+    display: block;
+    margin-top: 40px;
+}
+.aside ol{
+    margin-left: 500px;
+    font-size: 25px;
+    padding: 4px 6px 5px 12px;
+    text-decoration: darksalmon;
+    color:darksalmon ;
+    
+    display: block;
+}
+.aside form{
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
